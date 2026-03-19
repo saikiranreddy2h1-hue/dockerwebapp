@@ -8,7 +8,7 @@ services:
 
  application:
    image: kiran2h/mynew:appimg
-    ports:
+   ports:
      - "1234:8080"
    depends_on:
      - "devopsdb"
